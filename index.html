@@ -1,37 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SafeCare</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            background-color: #e6f2ff;
-        }
-        h1 {
-            color: #2b7a78;
-        }
-        .btn {
-            display: block;
-            margin: 15px auto;
-            padding: 15px;
-            width: 200px;
-            background-color: #3aafa9;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-        }
-    </style>
+  <title>SafeCare - Sistem Informasi Kesehatan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f9ff;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #023e8a;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: yellow;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    button {
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 
 <body>
 
-<h1>SafeCare</h1>
-<p>Aplikasi Kesehatan untuk Kelompok Rentan</p>
+<header>
+  <h1>SafeCare</h1>
+  <p>Sistem Informasi Kesehatan untuk Masyarakat Rentan</p>
+</header>
 
-<a class="btn" href="fitur.html">Fitur</a>
-<a class="btn" href="edukasi.html">Edukasi</a>
-<a class="btn" href="kontak.html">Kontak</a>
+<nav>
+  <a href="index.html">Beranda</a>
+  <a href="edukasi.html">Edukasi</a>
+  <a href="fitur.html">Fitur</a>
+  <a href="kontak.html">Kontak</a>
+</nav>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Selamat Datang</h2>
+    <p>
+      SafeCare adalah sistem informasi kesehatan berbasis web yang bertujuan
+      untuk membantu masyarakat, khususnya kelompok rentan seperti lansia,
+      ibu hamil, dan anak-anak dalam mendapatkan informasi kesehatan secara cepat,
+      mudah, dan akurat.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Tujuan Website</h2>
+    <p>
+      Website ini dibuat untuk meningkatkan kesadaran masyarakat terhadap
+      pentingnya kesehatan, menyediakan akses informasi medis dasar,
+      serta memberikan layanan darurat yang dapat digunakan kapan saja.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>🚨 Tombol Darurat</h2>
+    <p>Gunakan tombol ini jika membutuhkan bantuan cepat:</p>
+    <button onclick="alert('Menghubungi layanan darurat...')">
+      SOS DARURAT
+    </button>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 SafeCare | Sistem Informasi Kesehatan</p>
+</footer>
 
 </body>
 </html>
