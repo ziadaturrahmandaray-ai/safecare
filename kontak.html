@@ -1,4 +1,140 @@
-<h1>Kontak</h1>
-<p>Darurat: 112</p>
-<p>Ambulans: 118</p>
-<a href="index.html">Kembali</a>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kontak SafeCare</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef6ff;
+      margin: 0;
+    }
+
+    header {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #0077b6;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background: #0077b6;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #023e8a;
+    }
+
+    .btn-wa {
+      background: green;
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      padding: 10px 15px;
+      color: white;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      background: #0077b6;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Kontak SafeCare</h1>
+  <p>Hubungi kami untuk layanan kesehatan</p>
+</header>
+
+<div class="container">
+
+  <!-- INFORMASI -->
+  <div class="card">
+    <h2>📞 Informasi Kontak</h2>
+    <p>Email: safecare@email.com</p>
+    <p>Telepon: 08123456789</p>
+    <p>Alamat: Makassar, Indonesia</p>
+
+    <a class="btn-wa" href="https://wa.me/628123456789">
+      💬 Chat WhatsApp
+    </a>
+  </div>
+
+  <!-- RUMAH SAKIT -->
+  <div class="card">
+    <h2>🏥 Fasilitas Kesehatan</h2>
+    <p>RSUP Dr. Wahidin Sudirohusodo - (0411) 584677</p>
+    <p>RS Siloam Makassar - (0411) 8119000</p>
+    <p>RSUD Kota Makassar - (0411) 449070</p>
+  </div>
+
+  <!-- FORM -->
+  <div class="card">
+    <h2>📩 Kirim Pesan</h2>
+
+    <label>Nama:</label>
+    <input type="text" placeholder="Masukkan nama">
+
+    <label>Email:</label>
+    <input type="email" placeholder="Masukkan email">
+
+    <label>Pesan:</label>
+    <textarea placeholder="Tulis pesan..."></textarea>
+
+    <button onclick="alert('Pesan berhasil dikirim!')">
+      Kirim Pesan
+    </button>
+  </div>
+
+  <!-- JAM -->
+  <div class="card">
+    <h2>🕒 Jam Operasional</h2>
+    <p>Senin - Jumat: 08.00 - 20.00</p>
+    <p>Sabtu - Minggu: 09.00 - 15.00</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 SafeCare</p>
+</footer>
+
+</body>
+</html>
